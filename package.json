@@ -1,0 +1,22 @@
+{
+  "name": "apple-price-rounder",
+  "version": "1.0.0",
+  "description": "Apple prices is different, We can change",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Apple",
+    "apple",
+    "rounder"
+  ],
+  "author": "Çağatay Çalı",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1"
+  },
+  "devDependencies": {
+    "jest-cli": "^14.1.0"
+  }
+}
