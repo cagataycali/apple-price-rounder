@@ -4,7 +4,9 @@
   "description": "Apple prices is different, We can change",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "Apple",
@@ -14,9 +16,11 @@
   "author": "Çağatay Çalı",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.0.1"
+    "async": "^2.0.1",
+    "snyk": "^1.192.3"
   },
   "devDependencies": {
     "jest-cli": "^14.1.0"
-  }
+  },
+  "snyk": true
 }
