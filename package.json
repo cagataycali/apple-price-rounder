@@ -14,7 +14,7 @@
   "author": "Çağatay Çalı",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.0.1"
+    "async": "^3.2.2"
   },
   "devDependencies": {
     "jest-cli": "^14.1.0"
